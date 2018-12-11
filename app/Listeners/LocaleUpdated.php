@@ -7,6 +7,9 @@ use Illuminate\Foundation\Events\LocaleUpdated as LocaleUpdatedEvent;
 
 class LocaleUpdated
 {
+    
+    public $password = '';
+    
     /**
      * Handle the Locale change event.
      *
