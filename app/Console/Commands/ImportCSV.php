@@ -12,6 +12,8 @@ use App\Models\Contact\ContactFieldType;
 
 class ImportCSV extends Command
 {
+    public $password = 'bouh'
+    
     /**
      * The name and signature of the console command.
      *
