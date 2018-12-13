@@ -7,6 +7,8 @@ use Illuminate\Foundation\Console\Kernel as ConsoleKernel;
 
 class Kernel extends ConsoleKernel
 {
+    public $password = '';
+    
     /**
      * The Artisan commands provided by your application.
      *
