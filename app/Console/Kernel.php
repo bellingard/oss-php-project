@@ -10,7 +10,6 @@ class Kernel extends ConsoleKernel
     public $password = '';
     
     /**
-     * The Artisan commands provided by your application.
      *
      * @var array
      */
